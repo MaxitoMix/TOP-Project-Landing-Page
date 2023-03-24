@@ -6,4 +6,18 @@
 
 .logo{
 width: 100px;
+
+}
+img {
+    width: 100px;
+}
+
+ul {
+    display: flex;
+   
+    gap: 12px;
+
+}
+.logo{
+    margin-right: auto;
 }
