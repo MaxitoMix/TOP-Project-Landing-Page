@@ -1,7 +1,5 @@
 * {
-    border-style: solid;
-    border-color: magenta;
-    border-width: 1px;
+    border: 1px solid magenta;
     }
 
 .logo{
@@ -12,12 +10,48 @@ img {
     width: 100px;
 }
 
+
 ul {
     display: flex;
-   
+   text-align: center;
+   height: 110px;
     gap: 12px;
+    }
 
-}
+ li{
+   margin: auto 0;
+   text-align:center;
+ }   
 .logo{
     margin-right: auto;
+    height: fit-content;
+   
+}
+.section1{
+    
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 5%;
+    align-items: stretch;
+    gap: 10%;
+}
+.sect1-a{
+    max-width:50%;
+   justify-items: center;
+    }
+
+h1{
+    text-align:center;
+}
+.sect2-items{
+    text-align:center;
+}
+
+.sect2-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0 5%;
+    align-items: stretch;
+    gap: 10%;
 }
